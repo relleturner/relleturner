@@ -19,7 +19,7 @@
 
 full-stack ⋄ self-hosted ⋄ 3D artist ⋄ robotics nerd ⋄ Minneapolis, MN
 
-[⌂ ter.rellsoft.dev](https://ter.rellsoft.dev) ∙ [⌥ GitHub](https://github.com/relleturner)
+https://rellesoft.com
 
 ━━━━━━━━━━━━━━━━━━━━━━  ◆  ━━━━━━━━━━━━━━━━━━━━━━
 
