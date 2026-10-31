@@ -19,7 +19,7 @@
 
 full-stack ⋄ self-hosted ⋄ 3D artist ⋄ robotics nerd ⋄ Minneapolis, MN
 
-https://rellesoft.com
+[⌂ rellesoft.com](https://rellesoft.com) ∙ [✉ relle@rellesoft.com](mailto:relle@rellesoft.com) ∙ [⌥ GitHub](https://github.com/relleturner)
 
 ━━━━━━━━━━━━━━━━━━━━━━  ◆  ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -34,6 +34,7 @@ relle@rellesoft
   ▸ uptime ···· 10 yrs  (linux/docker ops → network deploys → QA → full stack)
   ▸ host ······ self-hosted, behind reverse proxies, TLS all the way down
   ▸ shell ····· python ∙ typescript ∙ sql ∙ bash
+  ▸ leads ····· a dev team of AI agents: sagas, one integrator, CI gates
   ▸ debugs ···· code ⇄ database state ⇄ network config
   ▸ believes ·· a test gate that blocks the deploy is a love letter
   ▸ awaits ···· the first React framework shipped with a crystal ball
@@ -50,8 +51,25 @@ relle@rellesoft
 | **data** | PostgreSQL ∙ MongoDB ∙ schema design |
 | **infra & devops** | Linux ∙ Docker ∙ GitHub Actions ∙ CI/CD ∙ reverse proxies ∙ AWS KMS |
 | **network & security** | TCP/IP ∙ DNS ∙ TLS/SSL ∙ firewalls ∙ OpenID Connect ∙ passkeys |
+| **agentic dev** | Claude Code ∙ Codex ∙ MCP server design ∙ subagent orchestration |
 | **testing & quality** | pytest ∙ Node test runner ∙ regression testing ∙ root-cause analysis |
 | **making things** | Blender ∙ Unity ∙ Three.js ∙ ESP32 |
+
+## ⎈ how i build
+
+```text
+saga-based development, with AI agents as the team
+───────────────────────────────────────────────────────────
+  ▸ sagas ······ each workstream gets its own branch and a lead agent
+                 that splits it, briefs subagents, and builds the hard part
+  ▸ integrator · one session merges to main; nobody else can
+  ▸ gates ······ CI blocks every change; every deploy waits for my go
+  ▸ rulings ···· product & safety calls written down once, never re-argued
+  ▸ red lines ·· held by tests, not by trusting the agent
+  ▸ handoffs ··· written state carries work across sessions that forget
+  ▸ models ····· picked by the work: Sonnet builds, Opus on purpose
+───────────────────────────────────────────────────────────
+```
 
 ## ⎔ things i'm building
 
@@ -61,6 +79,7 @@ relle@rellesoft
 │  ▪ 1.17M+ job posting observations                                         │
 │  ▪ evidence-linked fit analysis ▪ per-user data isolation                  │
 │  ▪ automated test gates ▪ ~3,000 commits since aug 2026                    │
+│  ▪ built solo, leading AI agents in parallel sagas ▪ 190+ written rulings  │
 ╰────────────────────────────────────────────────────────────────────────────╯
 ╭─ ■ MPLS-DASHBOARD ────────────────────────── react · typescript · express ─╮
 │  city stats for Minneapolis, pulled from public open-data APIs             │
